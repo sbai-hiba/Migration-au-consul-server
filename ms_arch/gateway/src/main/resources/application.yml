@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery: Gateway
+  application:
+    name: Gateway
+
+server:
+  port: 8888
+
+
